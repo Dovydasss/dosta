@@ -1,0 +1,30 @@
+/* custom-admin.css */
+body, .navbar, .footer {
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text for contrast */
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Adjust logo size */
+}
+
+.btn-outline-dark {
+    border-color: #333; /* Dark border for buttons */
+}
+
+/* Minimalist navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #1a1a1a; /* Slightly darker on hover/focus */
+}
+
+/* Footer styles */
+.footer {
+    border-top: 1px solid #eaeaea; /* Light border for the top of the footer */
+}
+
+/* Add more custom styles as needed */
